@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-itpb-orange: #ed771f;
+  --color-itpb-navy: #0c2340;
+  --color-itpb-grass: #2f6b3a;
+  --color-itpb-chalk: #f7f5ef;
+}
+
+body {
+  @apply bg-itpb-chalk text-itpb-navy antialiased;
+}
