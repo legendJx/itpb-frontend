@@ -5,6 +5,25 @@
   --color-itpb-navy: #0c2340;
   --color-itpb-grass: #2f6b3a;
   --color-itpb-chalk: #f7f5ef;
+  --color-itpb-night: #05070d;
+
+  --animate-zoom-through: zoom-through 750ms cubic-bezier(0.7, 0, 0.3, 1) both;
+
+  @keyframes zoom-through {
+    0% {
+      opacity: 0;
+      transform: scale(0.04);
+      border-radius: 48px;
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+      border-radius: 0;
+    }
+  }
 }
 
 body {
