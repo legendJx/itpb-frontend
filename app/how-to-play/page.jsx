@@ -5,20 +5,20 @@ export const metadata = { title: "How to Play · In The Park Baseball" };
 
 const rules = [
   {
-    title: "",
-    body: "",
+    title: "Start",
+    body: "Spin the wheel and see what past/present team you get.",
   },
   {
-    title: "",
-    body: "",
+    title: "Draft",
+    body: "For that team, select two players and put them in their position. This repeats until you have a full roster of 26.",
   },
   {
-    title: "",
-    body: "",
+    title: "Play",
+    body: "Simulate your season and see how your team does. Can they get the perfect record?",
   },
   {
-    title: "",
-    body: "",
+    title: "Result",
+    body: "Did your team win a world series? Or did they flunk out and not even make it to the wild card? Find out!",
   },
 ];
 
